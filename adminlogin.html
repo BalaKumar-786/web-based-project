@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="adminlog.css">
+</head>
+<body>
+<div class="form">
+
+    <form action="#" method="POST">
+       <!-- <div class="pcircle"><p>Profile </p><p>Upload</p></div>-->
+        <p class="head">Admin Registration</p><br>
+        <label for="company" class="company">Company Name:</label>
+        <input type="text" name="company"class="comin" /><br/>
+        <label for="pan" class="pan">Company PAN/VAT:</label>
+        <input type="number" name="pan" class="panbox"/><br/>
+        <label>Company Address:</label>
+        <input type="text" name="address" class="address"/><br/>
+        <label>Company Telephone:</label><select class="select" id="option">
+            <option value="+977">+977</option>
+            <option value="+91">+91</option>
+        </select>
+        <input type="tel" name="telno" maxlength="10" class="telephone"><br>
+        <label for="faxno">Company Fax No:</label>
+        <input type="number" class="faxno" maxlength="10"><br>
+        <label for="country">Country:</label>
+        <input type="text" class="" name="country" list="countrylist">
+        <datalist id="countrylist">
+            <option value="Nepal">Nepal</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="Bhutan">Bhutan</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Srilanka">Srilanka</option>
+            <option value="Africa">Africa</option>
+        </datalist><br>
+        <label for="origin">Company Origin Country:</label>
+        <input type="text" class="" name="origin"><br>
+        <label for="countryestablished">Country Established:</label>
+        <input type="date" class="" name="established"><br>
+        <label for="email">Company Email:</label>
+        <input type="email" class="" name="email"><br>
+        <label for="username">Username:</label>
+        <input type="text" class="" name="username"><br>
+        <label for="password">New Password:</label>
+        <input type="password" class="" name="password"><br>
+        <label for="repassword">Re-Type Password:</label>
+        <input type="password" class="" name="repassword"><br>
+        <input type="submit" value="Confirm To Submit" name="submit" class="submitbtn">
+        <input type="button" value="Cancel" class="cancel">
+        <input type="checkbox" class="checkbox"><span class="terms">I agree to the Terms and Conditions<span>
+    </form>
+    <hr/>
+</div>
+</body>
+</html>

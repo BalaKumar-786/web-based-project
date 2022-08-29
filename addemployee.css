@@ -1,0 +1,289 @@
+div.base{
+    position: absolute;
+    top: 200px;
+}
+div.background{
+    position: absolute;
+    top: 1000px;
+    width: 1350px;
+}
+body{
+    background-color: brown;
+}
+/* HEADING PARTS */
+div.header{
+    width: 1500px;
+    height:80px;
+    padding-left: 5px;
+    padding-top: 10px;
+    margin: -1%;
+    background-image: url("menu.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 100px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 10;
+}
+div div.ems{
+    background-color: rgb(231, 191, 191);
+    position: fixed;
+    height: 70px;
+    width: 90px;
+    margin-left: 20px;
+    background-size: 100px 100px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+div div.ems img:first-child{
+    margin: -10px;
+    position:fixed;
+    bottom: 530px;
+}
+header.heading{
+    float: right;
+}
+div span{
+    background-color:brown;
+    color: aliceblue;
+    padding: 5px;
+    position: relative;
+    left: 260px;
+    top: 35px;
+    font-size:larger;
+    font-weight: bolder;
+}
+div span:hover{
+    cursor: pointer;
+    color: #000;
+}
+ div  div.menu{
+    width: 100px;
+    height: 30px;
+    transition: height 3s;
+    -webkit-transition: height 3s;
+    color:aliceblue;
+    background-color: brown;
+    position: fixed;
+    transform: translate(150px,27px);
+    cursor: pointer;
+    text-align: center;
+    padding-top:2px ;
+    word-wrap: break-word;
+    overflow: hidden;
+    font-size: larger;
+    font-weight: bolder;
+}
+div div.menu:hover{
+    height: 140px;
+    color: aqua;
+}
+div div.menu a{
+    display: block;
+    color: aliceblue;
+    font-size:16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding:10px;
+}
+div.menu a:hover{
+    background-color: rgb(94, 7, 7);
+}
+span.home{
+    margin-left: 20px;
+}
+span.blog{
+    margin-left: 20px;
+}
+span.carrier{
+    margin-left: 20px;
+}
+ input.search {
+    margin-left:40px;
+    position: absolute;
+    top: 40px;
+    width: 300px;
+    height: 30px;
+    left: 555px;
+    background-color: white;
+    z-index: 5;
+}
+div.search1{
+    margin-left: 1px;
+   position: relative;
+   font-weight: bold;
+   padding: 5px;
+   background-color: brown;
+   width: 80px;
+   color: white;
+   font-size: large;
+   text-align: center;
+   left: 900px;
+   top: 10px;
+   z-index: 5;
+}
+div.search1:hover{
+    cursor: pointer;
+    color: rgb(19, 17, 17);
+}
+
+
+/* BODY PARTS */
+    table.table{
+    width: 1090px;
+    height: 180px;
+}
+div.blur{
+    width: 1350px;
+    height: 1000px;
+    filter: blur(5px);
+    background-image: url("bodyimage.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+th.SN{
+    width: 30px;
+}
+div.base{
+    margin-left: 10px;
+    z-index: 5;
+    background-color: aliceblue;
+}
+td.photo{
+    background-color: blueviolet;
+    background-image: url(pp1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+td{
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+}
+td input.tick{
+    width: 30px;
+    height: 30px;
+}
+td input.remarks{
+    width: 100px;
+    height: 50px;
+}
+textarea{
+    width: 100px;
+    height: 100px;
+    border: none;
+}
+.submitbtn, a.addemp, a.cancel{
+    text-decoration: none;
+    color: black;
+    background-color: blueviolet;
+    padding: 15px;
+    font-weight: bolder;
+    border-radius: 5px;
+    position: relative;
+    left: 1000px;
+    margin-top: 5px;
+}
+td.sphoto{
+    background-color: blueviolet;
+    background-image: url("pp2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+td.pp3{
+    background-image: url("pp3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+td.pp4{
+    background-image: url("pp4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+td.pp5{
+    background-image: url("pp5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* FOOTER PARTS*/
+div.background{
+    background-color: rgb(180, 135, 12);
+}
+div.media a{
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: block;
+    padding-left:5px;
+    text-align: center;
+    transform: translate(250px,10px);
+}
+div.media a:hover{
+    color: rgb(24, 9, 9);
+}
+div.media2 a{
+    width: 200px;
+    height: 30px;
+    text-decoration:none;
+    font-weight: bold;
+    color:white;
+    display:block;
+    padding-left: 5px;
+    text-align: center;
+    transform: translate(10px,-110px);
+}
+div.media2:last-child{
+    text-align: center;
+}
+div.media2 a:hover{
+    color:rgb(34, 34, 27);
+}
+div.emailus{
+    float: right;
+    margin-top: -230px;
+    margin-right: 5px;
+    font-weight:bold;
+    font-size: medium;
+    width: 500px;
+}
+div.emailus input{
+    height: 40px;
+    width: 400px;
+}
+div.emailus div.sign a{
+    background-color: rgb(226, 43, 67);
+    border-radius: 5px;
+    display: inline;
+    width: 70px;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    position: absolute;
+    right: 10px;
+    top: 35px;
+
+}
+div.sign a:hover{
+    cursor: pointer;
+}
+div.media2 p{
+    display: inline;
+    margin-left: 520px;
+    position: relative;
+    bottom: 18px;
+}
+div.media2 span{
+    position: relative;
+    left:520px ;
+    bottom: 18px;
+}

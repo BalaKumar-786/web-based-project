@@ -1,0 +1,92 @@
+div.form{
+    width: 1350px;
+    height: 790px;
+    overflow: hidden;
+}
+form label,input,select{
+    margin-left: 50px;
+    background-color: rgb(236, 211, 211);
+    padding:10px;
+    font-size: medium;
+    font-weight: bold;
+}
+form label{
+    float:left;
+    width: 200px;
+    text-align: center;
+    margin-top: 12px;
+}
+form select{
+    margin-left: 12px;
+}
+ p.head{
+     margin-top: 30px;
+     text-align: center;
+     font-size: larger;
+     font-weight: bold;
+     word-spacing: 10px;
+     letter-spacing: 4px;
+     background-color: aqua;
+ }
+
+/* div.pcircle{
+     background-color: antiquewhite;
+     width: 100px;
+     height: 100px;
+     margin-left: 610px;
+     border-radius: 100px 100px;
+     text-align: center;
+     padding-top: 20px;
+ }*/
+ /*div.pcircle p{
+     overflow: hidden;
+     display: block;
+ }
+ div.pcircle p:hover{
+     color: brown;
+     cursor: pointer;
+ }*/
+
+form{
+    padding-top: 10px;
+}
+input{
+    margin-top: 10px;
+    margin-left: 10px;
+    box-sizing: content-box ;
+    width: 500px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+form input.telephone{
+    width: 400px;
+}
+input.submitbtn{
+    transform: translate(840px,-5px);
+    width: 150px;
+    
+}
+form input.submitbtn:hover{
+    cursor: pointer;
+    color:blueviolet;
+}
+form input.cancel{
+    width: 150px;
+    transform: translate(840px,-5px);
+}
+form input.cancel:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+form input.checkbox{
+    margin-left: -350px;
+}
+form span.terms{
+    margin-left: -240px;
+    text-decoration: none;
+    font-size: medium;
+    color: rgb(7, 7, 7);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+
+}

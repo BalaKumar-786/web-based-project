@@ -1,0 +1,205 @@
+/*header part*/
+div.all{
+    width: 1350px;
+    height: 100px;
+    overflow: hidden;
+    margin-top: -8px;
+    
+}
+div.menubar{
+    height: 85px;
+    width: 1385px;
+    background-color:rgb(132, 198, 255) ;
+    padding: 10px;
+    margin-left: -8px;
+    margin-left: -1%;
+    background-image: url("menu.jpg");
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div.menubar div{
+    display: inline;
+    margin: 20px;
+    position:sticky;
+    top: 50px;
+    font-size: medium;
+    font-weight: bold;
+    background-color:rgb(250, 53, 53);
+    padding: 5px;
+    height: 20px;
+}
+div.menubar div:hover{
+    cursor: pointer;
+    
+}
+div.menubar div.imglogo{
+    background-image: url("EMSLogo.png");
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 30px;
+    padding-right: 40px;
+    position: relative;
+    top: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:75px ;
+}
+div.menubar div.profile{
+    padding:25px;
+    border-radius: 35px;
+    float: right;
+    position: relative;
+    top:-15px;
+}
+div span.name{
+    float: right;
+    position:relative;
+    left: 85px;
+    top: 75px;
+    font-weight: bold;
+}
+ div.feature{
+    width: 150px;
+    height: 30px;
+    float: right;
+    padding: 5px;
+    position: sticky;
+    transition: height 4s;
+    -webkit-transition: height 4s;
+    overflow: hidden;
+}
+div.feature:hover{
+    height:250px ;
+}
+div.feature a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+div.feature a:hover{
+    background-color: azure;
+}
+div.announcement{
+    height: 30px;
+    width: 150px;
+    transition: height 4s;
+    -webkit-transition: height 4s;
+    background-color:rgb(248, 97, 97);
+    text-align: center;
+    font-weight: bolder;
+    transform: translate(780px, -58px);
+    overflow: hidden;
+    padding-top: 2px;
+}
+div.announcement a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+div.announcement a:hover{
+    background-color: azure;
+}
+div.announcement:hover{
+    cursor: pointer;
+    height: 200px;
+}
+div input{
+    margin-right: 4px;
+    width: 300px;
+    height: 30px;
+}
+div span{
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+div.body{
+    background-color: blueviolet;
+    width: 500px;
+    height: 1000px;
+}
+
+/* body parts*/
+body{
+    background-image: url("bodyimage.jpg");
+    background-color: aquamarine;
+   
+}
+
+
+
+/* footer parts*/
+div.background{
+    background-color: rgb(1, 121, 27);
+    margin-top: 640px;
+    position: relative;
+    overflow: hidden;
+    width: 1350px;
+}
+div.media a{
+    width: 200px;
+    height: 30px;
+    
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: block;
+    padding-left:5px;
+    text-align: center;
+    transform: translate(350px,10px);
+}
+div.media a:hover{
+    color: rgb(24, 9, 9);
+}
+div.media2 a{
+    width: 200px;
+    height: 30px;
+    text-decoration:none;
+    font-weight: bold;
+    color:white;
+    display:block;
+    padding-left: 5px;
+    text-align: center;
+    transform: translate(15px,-110px);
+}
+div.media2:last-child{
+    text-align: center;
+}
+div.media2 a:hover{
+    color:rgb(8, 8, 0);
+}
+div.emailus input{
+    float: right;
+    margin-top: -235px;
+    margin-right: 110px;
+    font-size: medium;
+    width: 650px;
+    position:relative;
+}
+div.emailus input{
+    height: 30px;
+    width: 400px;
+}
+ div.sign a{
+    background-color: blueviolet;
+    border-radius: 5px;
+    display: inline;
+    width: 50px;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    position:relative;
+    bottom: 202px;
+    left: 1240px;
+    padding: 8px;
+}
+
+}
+span.sign a:hover{
+    cursor: pointer;
+}

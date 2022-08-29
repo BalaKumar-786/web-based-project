@@ -1,0 +1,65 @@
+table.table{
+    width: 1090px;
+    height: 180px;
+}
+th.SN{
+    width: 30px;
+}
+td.photo{
+    background-color: blueviolet;
+    background-image: url(pp1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+td{
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+}
+td input.tick{
+    width: 30px;
+    height: 30px;
+}
+td input.remarks{
+    width: 100px;
+    height: 50px;
+}
+textarea{
+    width: 100px;
+    height: 100px;
+    border: none;
+}
+.submitbtn, a.addemp, a.cancel{
+    text-decoration: none;
+    color: black;
+    background-color: blueviolet;
+    padding: 15px;
+    font-weight: bolder;
+    border-radius: 5px;
+    position: relative;
+    left: 1000px;
+    margin-top: 5px;
+}
+td.sphoto{
+    background-color: blueviolet;
+    background-image: url("pp2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+td.pp3{
+    background-image: url("pp3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+td.pp4{
+    background-image: url("pp4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+td.pp5{
+    background-image: url("pp5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

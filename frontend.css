@@ -1,0 +1,267 @@
+body{
+   background-image: url("bodyimage.jpg");
+   background-color: aquamarine;
+   
+}
+
+div.header{
+    width: 1500px;
+    height:80px;
+    padding-left: 5px;
+    padding-top: 10px;
+    margin: -1%;
+    background-image: url("menu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: fixed;
+    z-index: 10;
+    background-position: center;
+}
+div div.ems{
+    background-color: rgb(231, 191, 191);
+    position:fixed;
+    height: 70px;
+    width: 90px;
+    margin-left: 20px;
+    background-size: 100px 100px;
+    border-radius: 20px;
+    
+    
+    
+}
+div div.ems img:first-child{
+    margin: -10px;
+    position: fixed;
+    bottom: 525px;
+}
+div span{
+    background-color:brown;
+    color: aliceblue;
+    padding: 5px;
+    position: relative;
+    left: 260px;
+    top: 32px;
+    font-size:larger;
+    font-weight: bolder;
+}
+div span:hover{
+    cursor: pointer;
+    color: #000;
+}
+ div  div.menu{
+    width: 100px;
+    height: 23px;
+    transition: height 3s;
+    -webkit-transition: height 3s;
+    color:aliceblue;
+    background-color: brown;
+    position: fixed;
+    transform: translate(150px,27px);
+    cursor: pointer;
+    text-align: center;
+    word-wrap: break-word;
+    overflow: hidden;
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+}
+div div.menu:hover{
+    height: 140px;
+    color: aqua;
+}
+div div.menu a{
+    display: block;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    background-color: brown;
+}
+div.menu a:hover{
+    background-color: rgb(250, 7, 59);
+}
+span.home{
+    margin-left: 20px;
+}
+span.blog{
+    margin-left: 20px;
+}
+span.carrier{
+    margin-left: 20px;
+}
+input.search{
+    margin-left:40px;
+    position: relative;
+    top: 30px;
+    width: 300px;
+    height: 25px;
+    left: 255px;
+    
+}
+span.search1{
+    margin-left: 1px;
+}
+div.mainbody {
+  -webkit-transform:translate(470px, 160px);
+  transform:translate(470px, 160px);
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    padding-top: 40px;
+    background-size:300px 360px;
+    background-repeat: no-repeat;
+    border-radius: 50px 50px;
+    color: aliceblue;
+    background-color: rgb(252, 9, 62);
+    overflow: auto;
+    position: sticky;
+    z-index: 5;
+    
+}
+ a.admin{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    color: aliceblue;
+    background-color: rgb(240, 10, 68);
+    box-shadow: inset 10px 10px 5px burlywood, inset -10px -10px 5px burlywood;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 5px;
+    position: relative;
+    top: 20px;
+}
+.mainbody a.user{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    color:rgb(240, 10, 68);
+    padding: 5px;
+    border-radius: 10px;
+    color: aliceblue;
+    box-shadow: inset 10px 10px 5px burlywood, inset -10px -10px 5px burlywood;
+}
+div label,input{
+    font-size: medium;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: -40px;
+    margin-left: -10px;
+    width: 250px;
+}
+div.mainbody label.user2,input.user2{
+    font-size: medium;
+    font-weight: bold;
+    padding: 5px;
+    margin-top:30px;
+    width: 250px;
+}
+div input,input.user2{
+    font-size: medium;
+    font-weight: lighter;
+}
+a.user{
+    position: relative;
+    top: 20px;
+    color: aliceblue;
+}
+div.mainbody a:hover{
+    color: aqua;
+
+}
+a.create{
+    font-size:larger ;
+    font-weight: bolder;
+    position: relative;
+    top: 80px;
+    color: aliceblue;
+}
+div.horizantalline{
+    width: 1340px;
+    height: 0px;
+    margin: 0px;
+    transform: translateY(235px);
+    background-color: rgb(11, 11, 12);
+    border: 2px dashed rgb(253, 250, 250);
+    
+}
+div hr{
+    margin-top: 30px;
+}
+
+
+/* footer parts*/
+
+
+
+div.background{
+    background-color: rgb(1, 121, 27);
+    margin-top: 240px;
+    position: relative;
+    overflow: hidden;
+    width: 1350px;
+}
+div.media a{
+    width: 200px;
+    height: 30px;
+    
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: block;
+    padding-left:5px;
+    text-align: center;
+    transform: translate(350px,10px);
+}
+div.media a:hover{
+    color: rgb(24, 9, 9);
+}
+div.media2 a{
+    width: 200px;
+    height: 30px;
+    text-decoration:none;
+    font-weight: bold;
+    color:white;
+    display:block;
+    padding-left: 5px;
+    text-align: center;
+    transform: translate(15px,-110px);
+}
+div.media2:last-child{
+    text-align: center;
+}
+div.media2 a:hover{
+    color:rgb(8, 8, 0);
+}
+div.emailus input{
+    float: right;
+    margin-top: -235px;
+    margin-right: 110px;
+    font-size: medium;
+    width: 650px;
+    position:relative;
+}
+div.emailus input{
+    height: 30px;
+    width: 400px;
+}
+ div.sign a{
+    background-color: blueviolet;
+    border-radius: 5px;
+    display: inline;
+    width: 50px;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    position:relative;
+    bottom: 202px;
+    left: 1240px;
+    padding: 8px;
+}
+
+}
+span.sign a:hover{
+    cursor: pointer;
+}
